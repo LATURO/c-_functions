@@ -10,9 +10,9 @@ void PrintMassiv1(int a[],int n){
     }
 }
 void arrayRotateRight(int array[], int size) {
-register int temp = array[--size];
-while ( size > 0 ) array[size--] = array[size-1];
-array[0] = temp;
+    register int temp = array[--size];
+    while ( size > 0 ) array[size--] = array[size-1];
+    array[0] = temp;
 }
 void arrayRotateLeft(int array[], int size) {
     register int i, temp = array[0];
